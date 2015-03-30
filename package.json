@@ -1,6 +1,6 @@
 {
   "name": "codepostaux",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "subdomain": "",
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/mathrobin/codepostaux",
   "main": "index.js",
-  "author": "Companeo <it@companeo.com> (http://www.companeo.com/)",
+  "author": "MathRobin <mthrobin@gmail.com>",
   "license": "MIT"
 }
