@@ -1,3 +1,25 @@
 /*globals module, require */
 
-module.exports.CODES_POSTAUX = require('cp.js');
+var list = require('./cp.js').cp;
+
+function getObjects(obj, key, val) {
+    var objects = [];
+    for (var i in obj) {
+        if (!obj.hasOwnProperty(i)) continue;
+        if (typeof obj[i] == 'object') {
+            objects = objects.concat(getObjects(obj[i], key, val));
+        } else if (i == key && obj[key] == val) {
+            objects.push(obj);
+        }
+    }
+    return objects;
+}
+
+module.exports = {
+    findByCodeInsee: function (CodeInsee) {
+        return list[CodeInsee];
+    },
+    findByPostCode: function (PostCode) {
+        return getObjects(list, 'postcode', PostCode);
+    }
+};
