@@ -1,0 +1,16 @@
+{
+    "name": "codepostaux",
+    "version": "1.0.0",
+    "subdomain": "",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/mathrobin/codepostaux.git"
+    },
+    "domains": [],
+    "scripts": {},
+    "engines": {
+        "node": ">=0.8.1"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
