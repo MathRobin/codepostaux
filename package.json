@@ -1,16 +1,24 @@
 {
-    "name": "codepostaux",
-    "version": "1.0.0",
-    "subdomain": "",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/mathrobin/codepostaux.git"
-    },
-    "domains": [],
-    "scripts": {},
-    "engines": {
-        "node": ">=0.8.1"
-    },
-    "dependencies": {},
-    "devDependencies": {}
+  "name": "codepostaux",
+  "version": "1.0.1",
+  "subdomain": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mathrobin/codepostaux.git"
+  },
+  "domains": [],
+  "scripts": {},
+  "engines": {
+    "node": ">=0.8.1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "description": "Give some data about postcodes of France",
+  "bugs": {
+    "url": "https://github.com/mathrobin/codepostaux/issues"
+  },
+  "homepage": "https://github.com/mathrobin/codepostaux",
+  "main": "index.js",
+  "author": "Companeo <it@companeo.com> (http://www.companeo.com/)",
+  "license": "MIT"
 }

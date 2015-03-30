@@ -8,6 +8,12 @@ Give some data about postcodes of France
 
 ## Usage
 
+### Include package
+
+`
+var CODE_POSTAUX = require('codepostaux');
+`
+
 ### Search by code Insee (unique ID)
 
 `
