@@ -4,7 +4,7 @@ Give some data about postcodes of France
 
 ## Setup
 
-'npm i -S codepostaux'
+`npm i -S codepostaux`
 
 ## Usage
 
