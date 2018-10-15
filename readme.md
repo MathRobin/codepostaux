@@ -1,6 +1,6 @@
 # codepostaux
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/MathRobin/codepostaux.svg)](https://greenkeeper.io/)
+[![NpmLicense](https://img.shields.io/npm/l/codepostaux.svg?style=popout)](https://github.com/MathRobin/codepostaux/blob/master/LICENSE) [![Greenkeeper badge](https://badges.greenkeeper.io/MathRobin/codepostaux.svg)](https://greenkeeper.io/)
 
 Give some data about postcodes of France
 
